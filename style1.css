@@ -97,6 +97,8 @@ nav a:hover {
   height: 80vh;
 }
 
+
+
 /*-------video---------*/
 
 .dcontent h1 {
@@ -115,7 +117,7 @@ nav a:hover {
 .hr1 hr {
   position: relative;
   width: 379px;
-  margin-top: 360px;
+  margin-top: 225px;
   margin-left: -592px;
 
 }
@@ -729,7 +731,7 @@ nav a:hover {
 #best-offers {
   background-color:transparent;
   padding: 40px;
-  margin-top: 100px;
+  margin-top: 150px;
   
 }
 
@@ -740,13 +742,14 @@ nav a:hover {
   color: #f3f3f3;
   font-weight: 600;
 text-align: center;
+
 }
 
 .section-description {
   color: #c8c6c6;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -903,3 +906,328 @@ text-align: center;
   color: red;
   margin-top: 5px;
 }
+
+
+
+
+.packh1{
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #f3f3f3;
+  font-weight: 600;
+  padding: 50px;
+  text-align: center;
+}
+
+.destination-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.destination-card {
+  display: flex;
+  flex-direction: column-reverse; /* Reversed order: content above image */
+  position: relative;
+  border: none;
+  border-radius: 16px;
+  margin: 1rem;
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  overflow: hidden;
+  background-color: #03181B;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destination-card img {
+  flex: 0; /* Take up twice the space compared to the content */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+}
+/* ... (existing CSS code) ... */
+
+.destination-card:hover {
+  background-color: #08828A;
+}
+
+.destination-card .learn-more {
+  display: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.destination-card:hover .learn-more {
+  display: block;
+}
+
+
+.imgpack1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.4)),
+  url(packages/marackech1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.imgpack2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.4)),url(packages/dakhla.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgpack3{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.4)),url(packages/fez.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgpack4{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.4)), url(packages/atlas1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.destination-card-content {
+  flex: 1; /* Take up the remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #03181B;
+  border-radius: 0 0 16px 16px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+
+.destination-card h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.destination-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #F3F3F3;
+  font-family: "Poppins", sans-serif;
+}
+
+.destination-card button {
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: #08828A;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.destination-card button:hover {
+  background-color: #f5f6f7;
+  border: 1px solid #021114;
+}
+
+
+
+.destination-card .learn-more {
+  display: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.destination-card:hover .learn-more {
+  display: block;
+}
+.destination-card button {
+  background-color: #08828A;
+  color: #fff;
+  /* Existing styles */
+}
+
+.destination-card button:hover {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.destination-card:hover {
+  transform: scale(1.05);
+}
+.destination-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #03181b;
+}
+
+/*---------------navbar----------------*/
+/* ... (rest of the navbar styles) ... */
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #03181b;
+}
+
+/*---------------navbar----------------*/
+a:focus {
+  background-color: #f3f3f3;
+  border-radius: 50px;
+  color: #03181b;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d1d1d;
+  padding: 2px;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #2b2b2b;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+nav a {
+  padding: 6px 15px;
+  margin: 3px;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+nav a:hover {
+  background-color: #f3f3f3;
+  color: #373737;
+  border-radius: 50px;
+}
+
+.logo {
+  color: #b6b6b6;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-left: 15px;
+}
+
+#btn {
+  background-color: transparent;
+  border: 1px solid #c9c9c9;
+  width: 140px;
+  height: 35px;
+  color: #f4f2f1;
+  margin: auto;
+  letter-spacing: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  align-items: center;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #008f8c;
+  transition: 1s ease;
+  border-color: transparent;
+}
+
+/* ---------- section1-------------*/
+.dcontainer {
+  display: flex;
+  grid-column: 1/4 !important;
+  background-color: antiquewhite;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+/* ... (rest of the section1 styles) ... */
+
+/*-------------section2------------*/
+.citycontainer {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* ... (rest of the section2 styles) ... */
+
+.analys {
+  display: grid;
+  grid-column: 1/6;
+  grid-template-rows: 100px;
+  margin-bottom: 15px;
+}
+
+/* ... (rest of the analys styles) ... */
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  justify-content: center;
+  grid-template-rows: 60vh;
+  margin-top: 10px;
+}
+
